@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/78a1eaae1f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css  -->
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header class="d-flex align-items-center">
+        <img src="./assets/logo.png" class="img-fluid" alt="logo" />
+        <h1>Digital Addrress Verification Report</h1>
+      </header>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="customer-info section">
+            <p class="mb-4">customer information</p>
+            <div class="d-md-flex d-sm-flex d-block align-items-center gap-5">
+              <div class="avatar">
+                <img
+                  src="./assets/customer.png"
+                  class="img-fluid"
+                  alt="customer"
+                />
+                <h3 class="text-center mb-2">12345H</h3>
+                <p class="mb-4 mb-md-0 text-center">customer number</p>
+              </div>
+              <div class="row bio">
+                <div class="col-md-7 col-6">
+                  <h3 class="mb-1">Victor</h3>
+                  <p class="mb-4">first name</p>
+                  <h3 class="mb-1">Adebowale</h3>
+                  <p class="mb-4">last name</p>
+                  <h3 class="mb-1">01/04/2023 09:22am</h3>
+                  <p class="mb-0">verification time stamp</p>
+                </div>
+                <div class="col-md-5 col-6">
+                  <h3 class="mb-1">Nigeria</h3>
+                  <p class="mb-4">country</p>
+                  <h3 class="mb-1">09022345678</h3>
+                  <p>phone number</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="verification section">
+            <div class="d-flex justify-content-between align-items-center">
+              <p>verification status</p>
+              <span>Verified</span>
+            </div>
+            <div class="data d-flex justify-content-between">
+              <h4>Valid Address</h4>
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="data d-flex justify-content-between">
+              <h4>Valid Address</h4>
+              <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="data d-flex justify-content-between">
+              <h4>Valid Address</h4>
+              <i class="fa-solid fa-check"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="address section">
+            <p class="mb-4">address information</p>
+            <div class="row">
+              <div class="col-lg-7 col-6">
+                <h3 class="mb-2">25 Abule-oja road, Akoka, Yaba</h3>
+                <p class="mb-4">current address</p>
+                <h3 class="mb-2">Somolu</h3>
+                <p class="mb-4">lga</p>
+                <h4 class="mb-2">
+                  View Map URL<i class="fa-regular fa-eye"></i>
+                </h4>
+                <p>map url</p>
+              </div>
+              <div class="col-lg-5 col-6">
+                <h3 class="mb-2">Lagos</h3>
+                <p class="mb-4">state</p>
+                <h3 class="mb-2">University of Lagos</h3>
+                <p class="mb-4">nearby landmark</p>
+                <h4 class="mb-2">
+                  View Electricity Bill<i class="fa-regular fa-eye"></i>
+                </h4>
+                <p>electricity bill url</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-12">
+                <p class="mb-3">building image</p>
+                <img
+                  src="./assets/img1.png"
+                  class="img-fluid mb-3 mb-md-0"
+                  alt="building"
+                />
+              </div>
+              <div class="col-md-6 col-sm-6 col-12">
+                <p class="mb-3">nearby landmark</p>
+                <img src="./assets/img2.png" class="img-fluid" alt="building" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="certification section">
+            <div class="row">
+              <div class="col-lg-7 col-md-12 mb-3 mb-md-4 mb-lg-0">
+                <p class="mb-3">certification</p>
+                <h5>
+                  I ___________________________________ HEREBY CERTIFY THAT THE
+                  INFORMATION PRRESENTED FOR THE ABOVE NAMED CUSTOMER FOR
+                  ADDRESS VERIFICATION IS TRUE AND ACCURATE
+                </h5>
+              </div>
+              <div
+                class="col-lg-5 col-md-12 d-flex justify-content-center align-items-center gap-4"
+              >
+                <div class="d-flex flex-column align-items-center">
+                  <input type="text" id="date" />
+                  <label for="date">signature and date</label>
+                </div>
+                <img src="./assets/data.png" class="img-fluid" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap5 JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
